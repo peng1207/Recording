@@ -1,0 +1,49 @@
+PODS:
+  - Alamofire (5.0.0-rc.2)
+  - SnapKit (5.0.1)
+  - SPCommonLibrary (0.0.1.28):
+    - SnapKit
+    - SPCommonLibrary/CodeManager (= 0.0.1.28)
+    - SPCommonLibrary/ImageManager (= 0.0.1.28)
+    - SPCommonLibrary/Public (= 0.0.1.28)
+    - SPCommonLibrary/Recording (= 0.0.1.28)
+    - SPCommonLibrary/Request (= 0.0.1.28)
+    - SPCommonLibrary/Share (= 0.0.1.28)
+  - SPCommonLibrary/CodeManager (0.0.1.28):
+    - SnapKit
+    - SPCommonLibrary/Public
+  - SPCommonLibrary/ImageManager (0.0.1.28):
+    - SnapKit
+    - SPCommonLibrary/Public
+  - SPCommonLibrary/Public (0.0.1.28):
+    - SnapKit
+  - SPCommonLibrary/Recording (0.0.1.28):
+    - SnapKit
+    - SPCommonLibrary/Public
+  - SPCommonLibrary/Request (0.0.1.28):
+    - Alamofire (~> 5.0.0-beta.6)
+    - SnapKit
+    - SPCommonLibrary/Public
+  - SPCommonLibrary/Share (0.0.1.28):
+    - SnapKit
+
+DEPENDENCIES:
+  - SPCommonLibrary (from `/Users/huangshupeng/Documents/git/SPCommonLibrary`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - SnapKit
+
+EXTERNAL SOURCES:
+  SPCommonLibrary:
+    :path: "/Users/huangshupeng/Documents/git/SPCommonLibrary"
+
+SPEC CHECKSUMS:
+  Alamofire: f9450d3c7f6bea2ad62e7a541c3e9b186c7991d6
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SPCommonLibrary: e84debb7eef36c9ce7668a56976f4b6ecb118fe4
+
+PODFILE CHECKSUM: 149ce1a3ae30098f19cec8a0994d5e6ae6adf975
+
+COCOAPODS: 1.8.0
